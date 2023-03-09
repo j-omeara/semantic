@@ -11,6 +11,9 @@ print(word3.similarity(word2))
 print(word3.similarity(word1))
 print ("")
 
+# its interesting that it recognises that monkeys eat bananas and gives a higher score
+# the opposite result might be achieved with "dog" and "bone"
+
 # second code extract
 tokens = nlp('cat apple monkey banana ')
 for token1 in tokens:
